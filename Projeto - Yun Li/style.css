@@ -1,0 +1,288 @@
+*{
+    /* Aqui faz o reset do site */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* Aqui altera o corpo inteiro */
+    background-image: url(assets/img-background.jpg);
+    background-size: 100vw 109vh;
+    background-position: 0 -9vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Aqui começa a modificar o header */
+
+header{
+    display: flex;
+    font-size: 30px;
+    height: 6.5vh;
+    background-color: white;
+    width: 98.7vw;
+}
+
+#menu{
+    width: 2.5vw;
+    height: 5vh;
+    margin-top: 5px;
+}
+
+h1{
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+}
+
+#lupa{
+    width: 2.1vw;
+    height: 5vh;
+    margin-top: 5px;
+}
+
+#conta{
+    width: 4vw;
+    height: 6vh;
+    margin-top: 1px;
+    border-radius: 50%;
+}
+
+header > a{
+    padding: 0 40px;
+    border: 1px solid black;
+}
+
+header > div{
+    padding: 0 28px;
+    border: 1px solid black;
+}
+
+#div_title{
+    text-align: center;
+    padding: 0 74px;
+}
+
+/* Aqui começa a mudar a home */
+
+.sec_main{
+    /* Aqui vai mudar a parte principal do site */
+    background-color: rgb(221, 217, 217);
+    width: 90vw;
+    margin: 2.5vh auto;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Aqui altera a parte com álbuns */
+
+#section_albuns{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45vw;
+    padding: 10px;
+    padding-left: 30px;
+    gap: 8px;
+    justify-content: center;
+    border-right: 1px solid black;
+}
+
+#section_albuns > h2 {
+    width: 100%;
+    font-size: 40px;
+}
+
+#div_pri-album{
+    width: 250px;
+}
+
+.img_prin-album{
+    width: 250px;
+}
+
+#div_sec-album{
+    width: 290px;
+    cursor: not-allowed;
+}
+
+.img-sec-album{
+    width: 120px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+#div_ter-album{
+    width: 100%;
+    margin-left: 12px;
+}
+
+.img-ter-album{
+    width: 130px;
+}
+
+/* Aqui altera a parte do resumo */
+
+#div_tit-res{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#div_tit-res > h2{
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+#img-logo{
+    width: 75px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+#div_p-res > p{
+    width: 33vw;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 3px;
+}
+
+#div_p-res > p > a {
+    color: rgb(15, 26, 82);
+}
+
+/* Aqui vai começar a mudar as partes das notícias */
+
+#h2-noticias{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.section_noticias{
+    height: 70vh;
+    width: 27.55vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    align-items: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.h3-noticias {
+    font-size: 25px;
+    margin-top: -15px;
+}
+
+#lullabies{
+    width: 200px;
+}
+
+.p-noticias {
+    text-align: justify;
+}
+
+.p-noticias > a {
+    color: rgb(15, 26, 82);
+}
+
+aside {
+    margin-left: 230px;
+    margin-top: -7px;
+}
+
+#bons-tempos{
+    width: 150px;
+}
+
+#feats {
+    display: flex;
+    gap: 10px;
+}
+
+.img_feats {
+    width: 115px;
+}
+
+#h4-noticias {
+    margin: 7.5px 0;
+}
+
+/* Aqui começa a mudar a página da biografia */
+
+#main_biografia{
+    display: block;
+}
+
+#div_section {
+    display: flex;
+}
+
+#h2_biografia{
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 1px solid black;
+    height: 38px;
+}
+
+.class_biografia {
+    display: flex;
+    width: 44vw;
+    border-right: 1px solid black;
+    text-align: justify;
+    gap: 10px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+#img_crianca {
+    width: 182px;
+    height: 182px;
+}
+
+#img_yunglixo {
+    width: 182px;
+    height: 182px;
+}
+
+#vitoria {
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+}
+
+#p_bio {
+    margin: 10px;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+/* Aqui vai mudar o footer do site */
+
+footer{
+    background-color: rgb(149, 109, 236);
+    width: 98.7vw;
+    height: 8.5vh;
+    display: flex;
+    gap: 10px;
+}
+
+footer > div > h2{
+    font-size: 16px;
+}
+
+footer > div > p{
+    font-size: 14px;
+}
+
+#div_copy{
+    margin-left: 220px;
+}
